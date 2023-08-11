@@ -25,3 +25,18 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+.marquee {
+  animation-name: marquee;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(105%);
+  }
+}

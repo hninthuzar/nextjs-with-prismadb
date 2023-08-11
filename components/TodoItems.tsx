@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 type TodoItemProps = {
   id: string;
   title: string;
@@ -23,10 +25,26 @@ export function TodoItem({ id, title, complete, toggleTodo, deleteTodo }: TodoIt
       >
         {title}
       </label>
-      <label className="ml-auto bg-red-600 rounded px-1 text-sm cursor-pointer hover:bg-red-400"
-      onClick={()=>deleteTodo(id)} >
-        <span>delete</span>
-      </label>
+      <div className="ml-auto">
+        { complete? <label className="bg-blue-400 rounded px-2 text-sm">update</label> :
+            <Link 
+            href={{
+              pathname: '/new/',
+              query: { pageTitle: "Update", id },
+            }}
+            >
+              <label className="bg-blue-600 rounded px-2 text-sm cursor-pointer hover:bg-blue-400"
+              >
+                <span>update</span>
+              </label>
+            </Link>
+        }
+        
+        <label className="ml-3 bg-red-600 rounded px-2 text-sm cursor-pointer hover:bg-red-400"
+        onClick={()=>deleteTodo(id)} >
+          <span>delete</span>
+        </label>
+      </div>
     </li>
   );
 }
