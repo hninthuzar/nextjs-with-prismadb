@@ -27,5 +27,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## More Information
 
-This project used nextjs version 13.4.13, prisma (ORM - Object Relational Mapper) and db for sqlite.
-This project works todo list that include insert, update and delete actions.
+- This project used nextjs version 13.4.13, prisma (ORM - Object Relational Mapper) and db for sqlite.
+- This project works todo list that include insert, update and delete actions.
