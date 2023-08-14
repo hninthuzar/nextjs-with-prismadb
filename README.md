@@ -13,7 +13,7 @@ npx prisma init --datasource-provider sqlite
 npx prisma migrate dev --name init
 
 Second, run the development server:
-
+```
 ```bash
 npm run dev
 
