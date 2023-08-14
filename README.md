@@ -32,4 +32,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## App UI
 
-<img src="https://github.com/hninthuzar/nextjs-with-prismadb/blob/main/app/todo-photo.png" alt="Todo" title="Todo List" width="150" height="100" /> 
+<img src="https://github.com/hninthuzar/nextjs-with-prismadb/blob/main/app/todo-photo.png" alt="Todo" title="Todo List" width="200" height="150" /> 
