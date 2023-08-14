@@ -29,3 +29,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 - This project used nextjs version 13.4.13, prisma (ORM - Object Relational Mapper) and db for sqlite.
 - This project works todo list that include insert, update and delete actions.
+
+## App UI
+
+<img src="[kitten.jpg](https://github.com/hninthuzar/nextjs-with-prismadb/blob/main/app/todo-photo.png)https://github.com/hninthuzar/nextjs-with-prismadb/blob/main/app/todo-photo.png" alt="Todo" title="Todo List" width="150" height="100" /> 
